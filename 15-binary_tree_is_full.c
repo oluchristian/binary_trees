@@ -1,5 +1,12 @@
 #include "binary_trees.h"
-
+/**
+ * binary_tree_is_full - Measures the fullness of a binary tree.
+ *
+ * @tree: A pointer to the root node of the binary tree.
+ *
+ * Return: 1 is the tree is full,
+ *         or 0 if the tree is NULL.
+ */
 int binary_tree_is_full(const binary_tree_t *tree)
 {
 	if (tree == NULL)
